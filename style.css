@@ -22,10 +22,14 @@ body {
 h2 {
   text-transform: capitalize;
   color: white;
+  font-size: 2em;
 }
 input {
-  width: 200px;;
   --height: 3em;
+  width: 200px;
+  padding: 2vh 3vw;
   background-color: orangered;
   border-radius:  calc(var(--height)/2);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
